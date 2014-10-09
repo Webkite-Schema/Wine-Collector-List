@@ -1,0 +1,483 @@
+{
+  "facets": [
+    {
+      "name": "Vintage",
+      "type": "DateTime",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Winery",
+      "type": "Enum",
+      "metadata": {
+        "sortable": true,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Wine Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Varietal",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true,
+        "groupable": true
+      }
+    },
+    {
+      "name": "Image URL",
+      "type": "Image",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Winery Address",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Winery URL",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Country",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "State",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Region",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Tasting Notes",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Rating",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Bottle Size",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Price Paid Per Bottle",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Value Per Bottle",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Bottle Location",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Bottles On Hand",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Cellar Until",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Drink Between",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "Vintage": "בציר (שנה)",
+      "Winery": "יקב",
+      "Wine Name": "שם היין",
+      "Varietal": "יין זני",
+      "Image URL": "URL של תמונה",
+      "Winery Address": "כתובת יקב",
+      "Winery URL": "כתובת אתר יקב",
+      "Country": "ארץ",
+      "State": "מדינה",
+      "Region": "אזור",
+      "Tasting Notes": "תיאור טעם",
+      "Rating": "דירוג",
+      "Bottle Size": "גודל בקבוק",
+      "Price Paid Per Bottle": "מחיר ששולם לבקבוק",
+      "Value Per Bottle": "ערך לבקבוק",
+      "Bottle Location": "מיקום בקבוק",
+      "Bottles On Hand": "בקבוקים ביד",
+      "Cellar Until": "מרתף עד",
+      "Drink Between": "לשתות בין"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "Vintage": "年份",
+      "Winery": "酿酒厂",
+      "Wine Name": "酒名",
+      "Varietal": "葡萄酒类别",
+      "Image URL": "图片链接",
+      "Winery Address": "酒莊地址",
+      "Winery URL": "酒廠網址",
+      "Country": "国家",
+      "State": "省",
+      "Region": "地区",
+      "Tasting Notes": "品酒备注",
+      "Rating": "評級",
+      "Bottle Size": "瓶尺寸",
+      "Price Paid Per Bottle": "支付價格每瓶",
+      "Value Per Bottle": "每瓶價值",
+      "Bottle Location": "瓶位置",
+      "Bottles On Hand": "瓶在手",
+      "Cellar Until": "酒窖直到",
+      "Drink Between": "飲料之間"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "Vintage": "Año de cosecha",
+      "Winery": "Bodega",
+      "Wine Name": "Nombre de vino",
+      "Varietal": "Variedad",
+      "Image URL": "URL de imagen",
+      "Winery Address": "Winery Dirección",
+      "Winery URL": "URL Bodega",
+      "Country": "País",
+      "State": "Estado",
+      "Region": "Región",
+      "Tasting Notes": "Apuntes sobre el sabor",
+      "Rating": "Puntuación",
+      "Bottle Size": "Tamaño de la botella",
+      "Price Paid Per Bottle": "Precio Pagado por Botella",
+      "Value Per Bottle": "Valor Per Bottle",
+      "Bottle Location": "Botella Ubicación",
+      "Bottles On Hand": "Botellas En La Mano",
+      "Cellar Until": "Bodega Hasta",
+      "Drink Between": "Beba Entre"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "Vintage": "Ano de colheita",
+      "Winery": "Vinhedo",
+      "Wine Name": "Nome do vinho",
+      "Varietal": "Variedade",
+      "Image URL": "URL de imagem",
+      "Winery Address": "Winery Endereço",
+      "Winery URL": "URL Winery",
+      "Country": "País",
+      "State": "Estado",
+      "Region": "Região",
+      "Tasting Notes": "Impressões de sabor",
+      "Rating": "Avaliação",
+      "Bottle Size": "Garrafa Tamanho",
+      "Price Paid Per Bottle": "Preço pago por garrafa",
+      "Value Per Bottle": "Valor por garrafa",
+      "Bottle Location": "Garrafa Localização",
+      "Bottles On Hand": "Garrafas Na Mão",
+      "Cellar Until": "Adega Até",
+      "Drink Between": "Beba Entre"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "Vintage": "Cru",
+      "Winery": "Vinicole",
+      "Wine Name": "Nom de vin",
+      "Varietal": "Cépage",
+      "Image URL": "Image URL",
+      "Winery Address": "Winery Adresse",
+      "Winery URL": "Winery URL",
+      "Country": "Pays",
+      "State": "État ou province",
+      "Region": "Région",
+      "Tasting Notes": "Notes de dégustation",
+      "Rating": "Évaluation",
+      "Bottle Size": "Taille de la bouteille",
+      "Price Paid Per Bottle": "Prix ​​payé par bouteille",
+      "Value Per Bottle": "Valeur comptable par bouteille",
+      "Bottle Location": "Bouteille Lieu",
+      "Bottles On Hand": "Bouteilles à portée de main",
+      "Cellar Until": "Cave Jusqu'à",
+      "Drink Between": "Entre boire"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Vintage": "Год произвоства",
+      "Winery": "Завод",
+      "Wine Name": "Марка вина",
+      "Varietal": "Сорт",
+      "Image URL": "URL изображения",
+      "Winery Address": "Адрес Завода",
+      "Winery URL": "URL Завода",
+      "Country": "нация",
+      "State": "Область",
+      "Region": "Регион",
+      "Tasting Notes": "Вкусовые качества",
+      "Rating": "Рейтинг",
+      "Bottle Size": "Объем",
+      "Price Paid Per Bottle": "Цена, заплаченная за бутылку",
+      "Value Per Bottle": "Стоимость за бутылку",
+      "Bottle Location": "Расположения Бутылок",
+      "Bottles On Hand": "Флаконы на руках",
+      "Cellar Until": "Погреб",
+      "Drink Between": "Пить Между"
+    },
+    "Indonesian": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Bahasa Indonesia",
+        "phrases": {
+          "Sort": "Jenis",
+          "Filter": "Filter",
+          "More": "Lebih",
+          "Less": "Kurang",
+          "Sorry, no results": "Maaf, tidak ada hasil",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "dan",
+          "or": "atau",
+          "Details": "Detail"
+        }
+      },
+      "Vintage": "Panen anggur",
+      "Winery": "Pabrik anggur",
+      "Wine Name": "Wine Name",
+      "Varietal": "Varietas anggur",
+      "Image URL": "URL gambar",
+      "Winery Address": "Winery Alamat",
+      "Winery URL": "URL Winery",
+      "Country": "Negeri",
+      "State": "Negara bagian",
+      "Region": "Wilayah",
+      "Tasting Notes": "Catatan tentang rasanya",
+      "Rating": "Penilaian",
+      "Bottle Size": "Botol Ukuran",
+      "Price Paid Per Bottle": "Harga Dibayar Per Botol",
+      "Value Per Bottle": "Nilai Per Botol",
+      "Bottle Location": "Botol Lokasi",
+      "Bottles On Hand": "Botol On Hand",
+      "Cellar Until": "Cellar Sampai",
+      "Drink Between": "Minum Antara"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "Vintage": "Wijnoogst",
+      "Winery": "Wijnmakerij",
+      "Wine Name": "Wijn naam",
+      "Varietal": "Type",
+      "Image URL": "Afbeelding URL",
+      "Winery Address": "Winery Adres",
+      "Winery URL": "Winery URL",
+      "Country": "Land",
+      "State": "Provincie",
+      "Region": "Regio",
+      "Tasting Notes": "Proefnotities",
+      "Rating": "Waardering",
+      "Bottle Size": "Fles Grootte",
+      "Price Paid Per Bottle": "Betaalde prijs per fles",
+      "Value Per Bottle": "Waarde per fles",
+      "Bottle Location": "Fles Locatie",
+      "Bottles On Hand": "Flessen Op Hand",
+      "Cellar Until": "Kelder Tot",
+      "Drink Between": "Drinken Tussen"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "Vintage": "Yıl",
+      "Winery": "Şaraphane",
+      "Wine Name": "Şarap İsmi",
+      "Varietal": "Şarap Çeşidi",
+      "Image URL": "Resim Linki",
+      "Winery Address": "Şaraphane Adresi",
+      "Winery URL": "Şaraphane Linki",
+      "Country": "Ülke",
+      "State": "Eyalet",
+      "Region": "Bölge",
+      "Tasting Notes": "Tadım Notları",
+      "Rating": "Değerlendirme",
+      "Bottle Size": "Şişe Boyutu",
+      "Price Paid Per Bottle": "Şişe Başına Ödenen Fiyat",
+      "Value Per Bottle": "Şişe Değeri",
+      "Bottle Location": "Şişe Yeri",
+      "Bottles On Hand": "Eldeki Şişeler",
+      "Cellar Until": "Kiler kadar",
+      "Drink Between": "Arasında İçin"
+    }
+  }
+}
